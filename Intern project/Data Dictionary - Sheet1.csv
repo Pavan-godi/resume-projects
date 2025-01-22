@@ -1,0 +1,17 @@
+Column_Name ,DataType,Description
+Date,DATE,The date when the data was recorded.
+Machine_ID,VARCHAR(50),Unique Identifier of a machine.
+Assembly_Line_No,VARCHAR(50),Identifier for the Assembly_Line where the machine is located.
+Hydraulic_Pressure ,"DECIMAL(20, 2)",Hydraulic Pressure in bars.
+Coolant_Pressure,"DECIMAL(20, 2)",Coolant Pressure in bars.
+Air_System_Pressure,"DECIMAL(20, 2)",Air System Pressure in bars.
+Coolant_Temperature,"DECIMAL(20, 2)",Coolant Temperature in degree Celsius.
+Hydraulic_Oil_Temperature,"DECIMAL(20, 2)",Hydraulic Oil Temperature in degree Celsius.
+Spindle_Bearing_Temperature,"DECIMAL(20, 2)",Spindle Bearing Temperature in degree Celsius.
+Spindle_Vibration,"DECIMAL(20, 2)",Spindle Vibration in micrometers.
+Tool_Vibration,"DECIMAL(20, 2)",Tool Vibration in micrometers.
+Spindle_Speed,INT,Spindle Speed in Revolution Per Minute (RPM).
+Voltage,"DECIMAL(20, 2)",Voltage in volts.
+Torque,"DECIMAL(20, 2)",Torque in Newton meters (Nm).
+Cutting,"DECIMAL(20, 2)",Cutting in kiloNewtons (kN).
+Downtime,VARCHAR(50),Downtime in minutes.
